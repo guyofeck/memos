@@ -1,0 +1,66 @@
+# Base44 development environment: Go backend (air live reload) + Vite dev server.
+# Preview: http://localhost:3000 (Vite proxies /api, /memos.api.v1, /file to the backend).
+services:
+  backend:
+    image: golang:1.27
+    working_dir: /app
+    volumes:
+      - .:/app
+      - go-mod:/go/pkg/mod
+      - go-build:/root/.cache/go-build
+      - go-bin:/go/bin
+      - memos-data:/var/opt/memos
+    environment:
+      - GOFLAGS=-buildvcs=true
+    command:
+      - sh
+      - -ec
+      - |
+        git config --global --add safe.directory /app
+        [ -x /go/bin/air ] || go install github.com/air-verse/air@v1.62.0
+        exec air \
+          --build.cmd "go build -o /tmp/memos ./cmd/memos" \
+          --build.bin "/tmp/memos" \
+          --build.args_bin "--port,8081,--data,/var/opt/memos" \
+          --build.include_ext "go,sql" \
+          --build.exclude_dir "web,docs,.git,.agents,.github,scripts" \
+          --build.poll true \
+          --tmp_dir /tmp/air
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS -o /dev/null http://localhost:8081/ || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 300s
+    restart: on-failure
+
+  web:
+    image: node:24
+    working_dir: /app/web
+    volumes:
+      - ./web:/app/web
+      - web-node-modules:/app/web/node_modules
+    environment:
+      - DEV_PROXY_SERVER=http://backend:8081
+      - CHOKIDAR_USEPOLLING=true
+      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
+    command: ["sh", "-ec", "corepack enable && CI=true COREPACK_ENABLE_DOWNLOAD_PROMPT=0 pnpm install --frozen-lockfile && exec pnpm dev --host 0.0.0.0 --port 3001"]
+    ports:
+      - "3000:3001"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS -o /dev/null http://localhost:3001/ || { echo 'frontend down'; exit 1; }; curl -fsS -o /dev/null http://localhost:3001/api/v1/instance/profile || { echo 'backend via proxy down'; exit 1; }"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 180s
+    restart: on-failure
+
+volumes:
+  go-mod:
+  go-build:
+  go-bin:
+  memos-data:
+  web-node-modules:

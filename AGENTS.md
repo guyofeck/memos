@@ -152,3 +152,13 @@ Black-box service tests live in `server/api/v1/test/`, unit tests next to the co
 - Frontend CI: Node 24, pnpm 11.0.1, `pnpm lint`, `pnpm test`, `pnpm build`.
 - Proto CI: `buf lint` and `buf format` check.
 - Docker: `scripts/Dockerfile`, Alpine 3.21 runtime, non-root user, port 5230, multi-arch amd64/arm64/arm/v7.
+
+## Base44 Dev Environment
+
+- `docker compose -f docker-compose.base44.yml up -d` runs `backend` (golang:1.27 + air, port 8081 internal, SQLite in the
+  `memos-data` volume) and `web` (node:24 Vite dev server, host port 3000, proxying `/api`, `/memos.api.v1`, `/file` via
+  `DEV_PROXY_SERVER=http://backend:8081`).
+- First boot is slow (~5 min): Go module download, air install, first build. Later boots reuse the cached volumes.
+- Go edits rebuild automatically (air, polling). Air ≥1.62 takes binary args via `--build.args_bin` (comma-separated); `full_bin` is not split.
+- Fresh DB starts with `needsSetup: true`; the first sign-up in the UI becomes the admin. Check: `curl localhost:3000/api/v1/instance/profile`.
+- No external secrets are required to boot.
