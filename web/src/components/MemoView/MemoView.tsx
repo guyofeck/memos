@@ -17,6 +17,7 @@ import { useResolvedUser } from "@/components/MemoContent/MentionResolutionConte
 import { loadMemoEditor } from "@/components/MemoEditor/loader";
 import type { MemoEditorProps } from "@/components/MemoEditor/types";
 import { useAuth } from "@/contexts/AuthContext";
+import { useView } from "@/contexts/ViewContext";
 import useCurrentUser from "@/hooks/useCurrentUser";
 import { isMemoBlurred } from "@/lib/tag";
 import { cn } from "@/lib/utils";
@@ -25,6 +26,7 @@ import { lazyWithReload } from "@/utils/lazy";
 import { canManageMemo } from "@/utils/user";
 import { MemoBody, MemoCommentListView, MemoHeader } from "./components";
 import MemoPinnedMark from "./components/MemoPinnedMark";
+import MemoWordCount from "./components/MemoWordCount";
 import { MEMO_CARD_BASE_CLASSES } from "./constants";
 import { useImagePreview } from "./hooks";
 import { computeCommentAmount, MemoViewContext } from "./MemoViewContext";
@@ -52,6 +54,7 @@ const MemoView = forwardRef<MemoViewHandle, MemoViewProps>((props, ref) => {
   const [cardWidth, setCardWidth] = useState(0);
 
   const currentUser = useCurrentUser();
+  const { maxColumns } = useView();
   const { userTagsSetting } = useAuth();
   const creator = useResolvedUser(memoData.creator, { enabled: Boolean(showCreator || props.shareImageDialogOpen) });
   const isArchived = memoData.state === State.ARCHIVED;
@@ -193,6 +196,7 @@ const MemoView = forwardRef<MemoViewHandle, MemoViewProps>((props, ref) => {
       <MemoHeader timeDisplay={timeDisplay} showCreator={showCreator} showVisibility={showVisibility} showSpace={showSpace} />
 
       <MemoBody compact={compact} />
+      {!isInMemoDetailPage && maxColumns === 1 && <MemoWordCount content={memoData.content} />}
 
       {previewState.items.length > 0 && (
         <Suspense fallback={null}>
