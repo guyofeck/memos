@@ -351,6 +351,9 @@
     "layout-list-description": "Yksi lukuleveyden sarake",
     "on-this-memo": "Tässä muistiossa",
     "parent-memo": "Ylämuistio",
+    "word-count": "{{count}} sanaa",
+    "word-count_one": "{{count}} sana",
+    "word-count_other": "{{count}} sanaa",
     "view-options": "Näytä asetukset"
   },
   "message": {

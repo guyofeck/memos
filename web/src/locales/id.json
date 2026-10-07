@@ -308,6 +308,9 @@
       "uncheck-all": "Hapus centang semua tugas",
       "updated": "Tugas diperbarui"
     },
+    "word-count": "{{count}} kata",
+    "word-count_one": "{{count}} kata",
+    "word-count_other": "{{count}} kata",
     "view-options": "Opsi tampilan"
   },
   "message": {

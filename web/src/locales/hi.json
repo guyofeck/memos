@@ -308,6 +308,9 @@
       "uncheck-all": "सभी टास्क अनचेक करें",
       "updated": "टास्क अपडेट किए गए"
     },
+    "word-count": "{{count}} शब्द",
+    "word-count_one": "{{count}} शब्द",
+    "word-count_other": "{{count}} शब्द",
     "view-options": "ऑप्शन देखें"
   },
   "message": {

@@ -351,6 +351,9 @@
     "layout-list-description": "Једна колона ширине читања",
     "on-this-memo": "На овој поруци",
     "parent-memo": "Надређена порука",
+    "word-count": "{{count}} речи",
+    "word-count_one": "{{count}} реч",
+    "word-count_other": "{{count}} речи",
     "view-options": "Опције приказа"
   },
   "message": {

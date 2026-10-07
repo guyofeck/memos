@@ -291,6 +291,9 @@
     "parent-memo": "父备忘录",
     "show-less": "显示较少",
     "show-more": "查看更多",
+    "word-count": "{{count}} 字",
+    "word-count_one": "{{count}} 字",
+    "word-count_other": "{{count}} 字",
     "view-options": "视图选项",
     "visibility": {
       "private": "私有",

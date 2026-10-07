@@ -313,6 +313,9 @@
     "layout-list-description": "Uma única coluna com uma largura de leitura",
     "on-this-memo": "Neste memorando",
     "parent-memo": "Memorando pai",
+    "word-count": "{{count}} palavras",
+    "word-count_one": "{{count}} palavra",
+    "word-count_other": "{{count}} palavras",
     "view-options": "Opções de visualização"
   },
   "message": {

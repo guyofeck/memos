@@ -308,6 +308,9 @@
       "uncheck-all": "ยกเลิกการเลือกงานทั้งหมด",
       "updated": "อัปเดตงานแล้ว"
     },
+    "word-count": "{{count}} คำ",
+    "word-count_one": "{{count}} คำ",
+    "word-count_other": "{{count}} คำ",
     "view-options": "ตัวเลือกการดู"
   },
   "message": {

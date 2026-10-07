@@ -308,6 +308,9 @@
       "uncheck-all": "انتخاب همه وظایف را بردارید",
       "updated": "وظایف به‌روزرسانی شدند"
     },
+    "word-count": "{{count}} کلمه",
+    "word-count_one": "{{count}} کلمه",
+    "word-count_other": "{{count}} کلمه",
     "view-options": "گزینه‌های مشاهده"
   },
   "message": {

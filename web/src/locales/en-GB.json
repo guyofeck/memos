@@ -313,6 +313,9 @@
     "new-badge": "New",
     "on-this-memo": "On this memo",
     "parent-memo": "Parent memo",
+    "word-count": "{{count}} words",
+    "word-count_one": "{{count}} word",
+    "word-count_other": "{{count}} words",
     "view-options": "View options"
   },
   "message": {

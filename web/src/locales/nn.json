@@ -400,6 +400,9 @@
       "uncheck-all": "Fjern avkryssing frå alle gjeremål",
       "updated": "Gjeremåla er oppdaterte"
     },
+    "word-count": "{{count}} ord",
+    "word-count_one": "{{count}} ord",
+    "word-count_other": "{{count}} ord",
     "view-options": "Visingsval",
     "visibility": {
       "private": "Privat",

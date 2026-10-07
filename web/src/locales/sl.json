@@ -313,6 +313,9 @@
     "layout-list-description": "En sam stolpec za branje",
     "on-this-memo": "V tem zapisku",
     "parent-memo": "Nadrejeni zapisek",
+    "word-count": "{{count}} besed",
+    "word-count_one": "{{count}} beseda",
+    "word-count_other": "{{count}} besed",
     "view-options": "Možnosti pogleda"
   },
   "message": {

@@ -365,6 +365,9 @@
       "uncheck-all": "בטל סימון של כל המשימות",
       "updated": "המשימות עודכנו"
     },
+    "word-count": "{{count}} מילים",
+    "word-count_one": "{{count}} מילה",
+    "word-count_other": "{{count}} מילים",
     "view-options": "אפשרויות תצוגה",
     "visibility": {
       "private": "פרטי",

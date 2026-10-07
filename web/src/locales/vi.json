@@ -308,6 +308,9 @@
       "uncheck-all": "Bỏ chọn tất cả nhiệm vụ",
       "updated": "Nhiệm vụ đã được cập nhật"
     },
+    "word-count": "{{count}} từ",
+    "word-count_one": "{{count}} từ",
+    "word-count_other": "{{count}} từ",
     "view-options": "Tùy chọn xem"
   },
   "message": {

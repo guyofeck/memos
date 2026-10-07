@@ -351,6 +351,9 @@
     "layout-list-description": "Vienas skaitymo pločio stulpelis",
     "on-this-memo": "Šiame priminime",
     "parent-memo": "Pagrindinis priminimas",
+    "word-count": "{{count}} žodžių",
+    "word-count_one": "{{count}} žodis",
+    "word-count_other": "{{count}} žodžių",
     "view-options": "Peržiūros parinktys"
   },
   "message": {

@@ -313,6 +313,9 @@
     "layout-list-description": "Egyetlen olvasási szélességű oszlop",
     "on-this-memo": "Ezen a feljegyzésen",
     "parent-memo": "Szülő feljegyzés",
+    "word-count": "{{count}} szó",
+    "word-count_one": "{{count}} szó",
+    "word-count_other": "{{count}} szó",
     "view-options": "Megtekintési beállítások"
   },
   "message": {

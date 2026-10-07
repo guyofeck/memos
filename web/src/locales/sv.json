@@ -313,6 +313,9 @@
     "layout-list-description": "En enda kolumn med läsbredd",
     "on-this-memo": "På detta PM",
     "parent-memo": "Överordnat PM",
+    "word-count": "{{count}} ord",
+    "word-count_one": "{{count}} ord",
+    "word-count_other": "{{count}} ord",
     "view-options": "Visningsalternativ"
   },
   "message": {

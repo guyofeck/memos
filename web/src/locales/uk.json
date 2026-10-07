@@ -313,6 +313,9 @@
     "layout-list-description": "Один стовпець ширини для читання",
     "on-this-memo": "У цій нотатці",
     "parent-memo": "Батьківська нотатка",
+    "word-count": "{{count}} слів",
+    "word-count_one": "{{count}} слово",
+    "word-count_other": "{{count}} слів",
     "view-options": "Параметри перегляду"
   },
   "message": {

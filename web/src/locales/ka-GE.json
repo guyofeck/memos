@@ -313,6 +313,9 @@
     "layout-list-description": "ერთი წაკითხვის სიგანის სვეტი",
     "on-this-memo": "ამ მემოზე",
     "parent-memo": "მშობელი მემო",
+    "word-count": "{{count}} სიტყვა",
+    "word-count_one": "{{count}} სიტყვა",
+    "word-count_other": "{{count}} სიტყვა",
     "view-options": "ნახვის პარამეტრები"
   },
   "message": {

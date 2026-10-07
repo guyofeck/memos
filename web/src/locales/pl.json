@@ -313,6 +313,9 @@
     "layout-list-description": "Pojedyncza kolumna o szerokości odczytu",
     "on-this-memo": "W tej notatce",
     "parent-memo": "Notatka nadrzędna",
+    "word-count": "{{count}} słów",
+    "word-count_one": "{{count}} słowo",
+    "word-count_other": "{{count}} słów",
     "view-options": "Opcje widoku"
   },
   "message": {

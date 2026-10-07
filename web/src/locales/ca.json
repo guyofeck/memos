@@ -313,6 +313,9 @@
     "layout-list-description": "Una sola columna d'amplada de lectura",
     "on-this-memo": "En aquesta nota",
     "parent-memo": "Nota principal",
+    "word-count": "{{count}} paraules",
+    "word-count_one": "{{count}} paraula",
+    "word-count_other": "{{count}} paraules",
     "view-options": "Opcions de visualització"
   },
   "message": {

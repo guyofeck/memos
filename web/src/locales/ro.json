@@ -351,6 +351,9 @@
     "layout-list-description": "O singură coloană cu lățime de citire",
     "on-this-memo": "Pe această notă",
     "parent-memo": "Notă părinte",
+    "word-count": "{{count}} cuvinte",
+    "word-count_one": "{{count}} cuvânt",
+    "word-count_other": "{{count}} cuvinte",
     "view-options": "Opțiuni de vizualizare"
   },
   "message": {

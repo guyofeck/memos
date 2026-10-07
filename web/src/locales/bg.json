@@ -351,6 +351,9 @@
     "layout-list-description": "Една колона с ширина за четене",
     "on-this-memo": "В тази бележка",
     "parent-memo": "Родителска бележка",
+    "word-count": "{{count}} думи",
+    "word-count_one": "{{count}} дума",
+    "word-count_other": "{{count}} думи",
     "view-options": "Опции за преглед"
   },
   "message": {

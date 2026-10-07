@@ -308,6 +308,9 @@
       "uncheck-all": "모든 작업 선택 해제",
       "updated": "작업 업데이트됨"
     },
+    "word-count": "{{count}} 단어",
+    "word-count_one": "{{count}} 단어",
+    "word-count_other": "{{count}} 단어",
     "view-options": "보기 옵션"
   },
   "message": {

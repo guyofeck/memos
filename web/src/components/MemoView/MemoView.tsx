@@ -25,6 +25,7 @@ import { lazyWithReload } from "@/utils/lazy";
 import { canManageMemo } from "@/utils/user";
 import { MemoBody, MemoCommentListView, MemoHeader } from "./components";
 import MemoPinnedMark from "./components/MemoPinnedMark";
+import MemoWordCount from "./components/MemoWordCount";
 import { MEMO_CARD_BASE_CLASSES } from "./constants";
 import { useImagePreview } from "./hooks";
 import { computeCommentAmount, MemoViewContext } from "./MemoViewContext";
@@ -193,6 +194,7 @@ const MemoView = forwardRef<MemoViewHandle, MemoViewProps>((props, ref) => {
       <MemoHeader timeDisplay={timeDisplay} showCreator={showCreator} showVisibility={showVisibility} showSpace={showSpace} />
 
       <MemoBody compact={compact} />
+      {props.showWordCount && <MemoWordCount content={memoData.content} />}
 
       {previewState.items.length > 0 && (
         <Suspense fallback={null}>

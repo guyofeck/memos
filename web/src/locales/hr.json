@@ -313,6 +313,9 @@
     "layout-list-description": "Jedan stupac širine za čitanje",
     "on-this-memo": "Na ovom podsjetniku",
     "parent-memo": "Nadređeni podsjetnik",
+    "word-count": "{{count}} riječi",
+    "word-count_one": "{{count}} riječ",
+    "word-count_other": "{{count}} riječi",
     "view-options": "Opcije prikaza"
   },
   "message": {

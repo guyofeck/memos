@@ -313,6 +313,9 @@
     "layout-list-description": "Unha única columna de ancho de lectura",
     "on-this-memo": "Nesta nota",
     "parent-memo": "Nota principal",
+    "word-count": "{{count}} palabras",
+    "word-count_one": "{{count}} palabra",
+    "word-count_other": "{{count}} palabras",
     "view-options": "Ver opcións"
   },
   "message": {

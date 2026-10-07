@@ -308,6 +308,9 @@
       "uncheck-all": "إلغاء تحديد جميع المهام",
       "updated": "تم تحديث المهام"
     },
+    "word-count": "{{count}} كلمات",
+    "word-count_one": "{{count}} كلمة",
+    "word-count_other": "{{count}} كلمات",
     "view-options": "خيارات العرض"
   },
   "message": {

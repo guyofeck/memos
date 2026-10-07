@@ -351,6 +351,9 @@
     "layout-list-description": "Viena lasīšanas platuma kolonna",
     "on-this-memo": "Šajā piezīmē",
     "parent-memo": "Galvenā piezīme",
+    "word-count": "{{count}} vārdu",
+    "word-count_one": "{{count}} vārds",
+    "word-count_other": "{{count}} vārdu",
     "view-options": "Skata opcijas"
   },
   "message": {

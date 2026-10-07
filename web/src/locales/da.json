@@ -351,6 +351,9 @@
     "layout-list-description": "En enkelt kolonne med læsebredde",
     "on-this-memo": "På dette notat",
     "parent-memo": "Overordnet notat",
+    "word-count": "{{count}} ord",
+    "word-count_one": "{{count}} ord",
+    "word-count_other": "{{count}} ord",
     "view-options": "Visningsmuligheder"
   },
   "message": {

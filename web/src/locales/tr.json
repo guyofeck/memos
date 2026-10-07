@@ -320,6 +320,9 @@
     },
     "show-less": "Daha az göster",
     "show-more": "Daha fazla göster",
+    "word-count": "{{count}} kelime",
+    "word-count_one": "{{count}} kelime",
+    "word-count_other": "{{count}} kelime",
     "view-options": "Görünüm seçenekleri",
     "visibility": {
       "private": "Özel",

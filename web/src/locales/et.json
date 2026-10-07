@@ -351,6 +351,9 @@
     "layout-list-description": "Üks lugemislaiusega veerg",
     "on-this-memo": "Sellel memo peal",
     "parent-memo": "Ülemmemo",
+    "word-count": "{{count}} sõna",
+    "word-count_one": "{{count}} sõna",
+    "word-count_other": "{{count}} sõna",
     "view-options": "Vaate valikud"
   },
   "message": {

@@ -400,6 +400,9 @@
       "uncheck-all": "Uncheck all tasks",
       "updated": "Tasks updated"
     },
+    "word-count": "{{count}} words",
+    "word-count_one": "{{count}} word",
+    "word-count_other": "{{count}} words",
     "view-options": "View options",
     "visibility": {
       "private": "Private",

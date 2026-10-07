@@ -53,6 +53,7 @@ const Home = () => {
               memo={memo}
               showCreator={!creatorUsername}
               showVisibility
+              showWordCount
               showPinned={honorPinned}
               showSpace={!selectedSpaceName}
               compact={compact}

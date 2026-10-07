@@ -351,6 +351,9 @@
     "layout-list-description": "Μία στήλη πλάτους ανάγνωσης",
     "on-this-memo": "Σε αυτό το σημείωμα",
     "parent-memo": "Γονικό σημείωμα",
+    "word-count": "{{count}} λέξεις",
+    "word-count_one": "{{count}} λέξη",
+    "word-count_other": "{{count}} λέξεις",
     "view-options": "Επιλογές προβολής"
   },
   "message": {

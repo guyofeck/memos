@@ -351,6 +351,9 @@
     "layout-list-description": "Jeden stĺpec na šírku čítania",
     "on-this-memo": "V tejto poznámke",
     "parent-memo": "Nadradená poznámka",
+    "word-count": "{{count}} slov",
+    "word-count_one": "{{count}} slovo",
+    "word-count_other": "{{count}} slov",
     "view-options": "Možnosti zobrazenia"
   },
   "message": {

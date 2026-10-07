@@ -308,6 +308,9 @@
       "uncheck-all": "सर्व कार्ये निवड रद्द करा",
       "updated": "कार्ये अद्यतनित केली"
     },
+    "word-count": "{{count}} शब्द",
+    "word-count_one": "{{count}} शब्द",
+    "word-count_other": "{{count}} शब्द",
     "view-options": "पाहण्याचे पर्याय"
   },
   "message": {

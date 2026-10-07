@@ -11,6 +11,7 @@ export interface MemoViewProps {
   showVisibility?: boolean;
   showPinned?: boolean;
   showSpace?: boolean;
+  showWordCount?: boolean;
   className?: string;
   parentPage?: string;
   shareImageDialogOpen?: boolean;

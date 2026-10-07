@@ -373,6 +373,9 @@
       "uncheck-all": "取消勾選所有待辦事項",
       "updated": "待辦事項已更新"
     },
+    "word-count": "{{count}} 字",
+    "word-count_one": "{{count}} 字",
+    "word-count_other": "{{count}} 字",
     "view-options": "檢視選項",
     "visibility": {
       "private": "私人",

@@ -400,6 +400,9 @@
       "uncheck-all": "Bütün tapşırıqların işarəsini götür",
       "updated": "Tapşırıqlar yeniləndi"
     },
+    "word-count": "{{count}} söz",
+    "word-count_one": "{{count}} söz",
+    "word-count_other": "{{count}} söz",
     "view-options": "Görünüş parametrləri",
     "visibility": {
       "private": "Şəxsi",

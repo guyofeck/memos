@@ -313,6 +313,9 @@
     "layout-list-description": "Une seule colonne de largeur lisible",
     "on-this-memo": "Sur ce mémo",
     "parent-memo": "Mémo parent",
+    "word-count": "{{count}} mots",
+    "word-count_one": "{{count}} mot",
+    "word-count_other": "{{count}} mots",
     "view-options": "Options d'affichage"
   },
   "message": {

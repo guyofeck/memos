@@ -313,6 +313,9 @@
     "layout-list-description": "Jeden sloupec na šířku pro čtení",
     "on-this-memo": "V této poznámkě",
     "parent-memo": "Nadřazená poznámka",
+    "word-count": "{{count}} slov",
+    "word-count_one": "{{count}} slovo",
+    "word-count_other": "{{count}} slov",
     "view-options": "Možnosti zobrazení"
   },
   "message": {

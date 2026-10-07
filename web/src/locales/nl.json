@@ -313,6 +313,9 @@
     "layout-list-description": "Een enkele kolom met leesbreedte",
     "on-this-memo": "In deze memo",
     "parent-memo": "Hoofdmemo",
+    "word-count": "{{count}} woorden",
+    "word-count_one": "{{count}} woord",
+    "word-count_other": "{{count}} woorden",
     "view-options": "Weergaveopties"
   },
   "message": {

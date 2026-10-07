@@ -308,6 +308,9 @@
       "uncheck-all": "Desmarcar todas as tarefas",
       "updated": "Tarefas atualizadas"
     },
+    "word-count": "{{count}} palavras",
+    "word-count_one": "{{count}} palavra",
+    "word-count_other": "{{count}} palavras",
     "view-options": "Opções de visualização"
   },
   "message": {

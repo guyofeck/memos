@@ -313,6 +313,9 @@
     "layout-list-description": "Eine einzelne Spalte in Lesebreite",
     "on-this-memo": "Zu diesem Memo",
     "parent-memo": "Übergeordnetes Memo",
+    "word-count": "{{count}} Wörter",
+    "word-count_one": "{{count}} Wort",
+    "word-count_other": "{{count}} Wörter",
     "view-options": "Ansichtsoptionen"
   },
   "message": {

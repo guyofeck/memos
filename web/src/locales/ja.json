@@ -285,6 +285,9 @@
     },
     "show-less": "表示を減らす",
     "show-more": "もっと見る",
+    "word-count": "{{count}} 語",
+    "word-count_one": "{{count}} 語",
+    "word-count_other": "{{count}} 語",
     "view-options": "表示オプション",
     "visibility": {
       "private": "非公開",
